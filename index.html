@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froyo Flavors</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    <h1>Welcome to Froyo's Emporium!</h1>
+    <p>Please enter your froyo flavors separated by comma's, please!</p>
+    <input type="text" id="flavorsInput" placeholder="e.g., Chocolate, Vanilla, Strawberry, Peach, Mango">
+    <button onclick="processOrder()">Submit Order</button>
+
+    <h2>Here's your Order Summary!</h2>
+    <table id="orderTable">
+        <thead>
+            <tr>
+                <th>Flavor</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody id="orderBody"></tbody>
+    </table>
+
+</body>
+
+
+</html>
